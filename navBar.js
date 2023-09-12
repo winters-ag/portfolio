@@ -28,6 +28,7 @@ const headerTemplate = document.createElement('template');
             <a class="dropdown-item" href="./pacmen.html">PacMen</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="./eyemovement.html">Eye Tracking</a>
+            <a class="dropdown-item" target="_blank" href="https://github.com/winters-ag/Eye_Tracking">Eye Tracking Repo</a>
           </div>
         </li>
       </ul>
