@@ -1,3 +1,54 @@
+* {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 body {
   font-family: 'Caveat', cursive;
+}
+.rowfull {
+  height: 100lh;
+}
+.pic {
+  height: 250px;
+  width: inherit;
+  border-radius: 50%;
+  grid-area: pic;
+  align-items: center;
+}
+.bio {
+  border-radius:25px;
+  border-style:ridge;
+  font-size: 1em;
+  background-color: dark-grey;
+  grid-area: bio;
+}
+.right {
+  grid-area: right;
+}
+.gridLayout {
+  display: grid;
+  grid-template-columns: 300px 1fr 300px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    'pic vid proj'
+    'bio vid proj'
+    'bio ... proj';
+}
+.proj {
+  grid-area: proj;
+  padding-top:20px;
+  padding: 10px;
+  padding-bottom: 20px;
+  border-radius:25px;
+  /* background-color: darkblue; */
+  align-items: center;
+  color: white;
+}
+.vid {
+  border-radius:25px;
+  grid-area: vid;
+  background-color: red;
+}
+.card {
+  background-color: darkslategray;
 }
