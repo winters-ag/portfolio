@@ -17,7 +17,6 @@ body {
 }
 .bio {
   border-radius:25px;
-  border-style:ridge;
   font-size: 1em;
   background-color: dark-grey;
   grid-area: bio;
