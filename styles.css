@@ -55,7 +55,6 @@ body {
 .vid {
   border-radius:25px;
   grid-area: vid;
-  background-color: red;
 }
 .card {
   background-color: darkslategray;
