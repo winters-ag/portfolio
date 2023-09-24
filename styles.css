@@ -15,6 +15,15 @@ body {
   grid-area: pic;
   align-items: center;
 }
+.logo {
+  height: 50px;
+  width: 75px;
+}
+.rightlogo {
+  display: block;
+  margin-left:auto;
+  float:right;
+}
 .bio {
   border-radius:25px;
   font-size: 1em;
@@ -50,4 +59,15 @@ body {
 }
 .card {
   background-color: darkslategray;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+iframe {
+  display:block;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
 }
